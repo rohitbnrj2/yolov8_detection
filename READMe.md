@@ -10,29 +10,13 @@ Things to do -
 1. Try to perform prediction on a video.
 2. Create a validation dataset, to verify the results (current training shows further improvement can be achieved with more training iterations.)
 
-# Installations
+<h4>Installations</h4>
 Things to take care - 
 1. Make sure python version is 3.8+
 2. Perform pip install onnx and onnxruntime for model export.
 
-# Results
+<h4>Dataset</h4>
+The dataset tested upon here composes of 30 images of golden and labrador retrievers. These two labels are the object of interest and to check the prediction test01 and test02.jpg images are used after training and validation are completed. The dataset was annotated using makesense.ai and the structure of the dataset is as described commonly for yolo architectures, i.e dataset must contain two folders images and labels.
+
+<h4>Results</h4>
 Currently, I have attached results from a successful run on the dataset. It is in the ultralytics folder.
-
-# Dataset creation
-The dataset is created in the following format - 
-
-<p>Dataset</p>
-    |
-    ---- dogs
-          |
-          ---- images
-          |       |
-          |       ----train
-          |            <img1>
-          |            <img2>
-          |               
-          ---- labels
-                 |
-                 ----train
-                       <img1.txt>
-                       <img2.txt>
