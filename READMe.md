@@ -19,4 +19,4 @@ Things to take care -
 The dataset tested upon here composes of 30 images of golden and labrador retrievers. These two labels are the object of interest and to check the prediction test01 and test02.jpg images are used after training and validation are completed. The dataset was annotated using makesense.ai and the structure of the dataset is as described commonly for yolo architectures, i.e dataset must contain two folders images and labels.
 
 <h4>Results</h4>
-Currently, I have attached results from a successful run on the dataset. It is in the ultralytics folder.
+Currently, I have attached results from a successful run on the dataset. It is in the detect folder. Usually all the result are in the ultralytics folder however, to clone the repo please follow the instructions as given in the original [YOLOv8 ultralytics](https://github.com/ultralytics/ultralytics/tree/main) github repo.
