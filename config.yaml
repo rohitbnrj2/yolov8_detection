@@ -1,0 +1,9 @@
+
+path: /absolute/path/to/datasets/dogs  # dataset root dir
+train: images/train  # train images (relative to 'path')
+val: images/train  # val images (relative to 'path')
+
+# Classes
+names:
+  0: Golden Retriever
+  1: Labrador Retriever
